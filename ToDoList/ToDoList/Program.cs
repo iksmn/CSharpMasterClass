@@ -6,7 +6,18 @@ Console.WriteLine("[E]xit");
 
 string userChoice = Console.ReadLine();
 
-Console.WriteLine("Use input:" + userChoice);
-userChoice = "ABCDEFGH";
+if(userChoice.Length <= 3)
+{
+    Console.WriteLine("Short answer");
+}
+else if (userChoice.Length < 10)
+{
+    Console.WriteLine("Medium answer");
+}
+else
+{
+    Console.WriteLine("Long answer");
+}
+
 
 Console.ReadKey();
