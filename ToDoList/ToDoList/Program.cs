@@ -6,18 +6,26 @@ Console.WriteLine("[E]xit");
 
 string userChoice = Console.ReadLine();
 
-if(userChoice.Length <= 3)
+if(userChoice == "S")
 {
-    Console.WriteLine("Short answer");
+    PrintSelectedOption("See all TODOs");
 }
-else if (userChoice.Length < 10)
+else if(userChoice == "A")
 {
-    Console.WriteLine("Medium answer");
+    PrintSelectedOption("Add a TODO");
 }
-else
+else if(userChoice == "R")
 {
-    Console.WriteLine("Long answer");
+    PrintSelectedOption("Remove a TODO");
 }
-
+else if(userChoice=="E")
+{
+    PrintSelectedOption("Exit");
+}
 
 Console.ReadKey();
+
+void PrintSelectedOption(string selectedOption)
+{
+    Console.WriteLine("Selected option: " + selectedOption);
+}

@@ -67,3 +67,29 @@
 
 //Console.ReadKey();
 
+
+
+//ELSE-IF
+
+//string userChoice = Console.ReadLine();
+
+//if (userChoice == "S")
+//{
+//    Console.WriteLine("Selected option: See all TODOs");
+//}
+//else if (userChoice == "A")
+//{
+//    Console.WriteLine("Selected option: Add a TODO");
+//}
+//else if (userChoice == "R")
+//{
+//    Console.WriteLine("Selected option: Remove a TODO");
+//}
+//else if (userChoice == "E")
+//{
+//    Console.WriteLine("Selected option: Exit");
+//}
+
+//Console.ReadKey();
+
+
