@@ -93,3 +93,56 @@
 //Console.ReadKey();
 
 
+//MÉTODOS VOID
+
+//string userChoice = Console.ReadLine();
+
+//if (userChoice == "S")
+//{
+//    PrintSelectedOption("See all TODOs");
+//}
+//else if (userChoice == "A")
+//{
+//    PrintSelectedOption("Add a TODO");
+//}
+//else if (userChoice == "R")
+//{
+//    PrintSelectedOption("Remove a TODO");
+//}
+//else if (userChoice == "E")
+//{
+//    PrintSelectedOption("Exit");
+//}
+
+//Console.ReadKey();
+
+//void PrintSelectedOption(string selectedOption)
+//{
+//    Console.WriteLine("Selected option: " + selectedOption);
+//}
+
+
+
+//MÉTODOS NÃO VOID
+
+//bool isLong = IsLong(userChoice);
+
+//var result = Add(10, 5);
+//Console.WriteLine("10 + 5 = " + result);
+
+//int Add(int a, int b)
+//{
+//    return a + b;
+//}
+
+//bool IsLong(string input)
+//{
+//    return input.Length > 10;
+//}
+
+//Console.ReadKey();
+
+
+
+
+

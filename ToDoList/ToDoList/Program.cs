@@ -1,31 +1,14 @@
-﻿Console.WriteLine("Hello!");
-Console.WriteLine("[S]ee all TODOs");
-Console.WriteLine("[A]dd a TODO");
-Console.WriteLine("[R]emove a TODO");
-Console.WriteLine("[E]xit");
+﻿//using System.ComponentModel;
 
-string userChoice = Console.ReadLine();
+//Console.WriteLine("Hello!");
+//Console.WriteLine("[S]ee all TODOs");
+//Console.WriteLine("[A]dd a TODO");
+//Console.WriteLine("[R]emove a TODO");
+//Console.WriteLine("[E]xit");
 
-if(userChoice == "S")
-{
-    PrintSelectedOption("See all TODOs");
-}
-else if(userChoice == "A")
-{
-    PrintSelectedOption("Add a TODO");
-}
-else if(userChoice == "R")
-{
-    PrintSelectedOption("Remove a TODO");
-}
-else if(userChoice=="E")
-{
-    PrintSelectedOption("Exit");
-}
+Console.WriteLine("Provide a number.");
+string userInput = Console.ReadLine();
+int number = int.Parse(userInput);
+Console.WriteLine(number);
 
 Console.ReadKey();
-
-void PrintSelectedOption(string selectedOption)
-{
-    Console.WriteLine("Selected option: " + selectedOption);
-}
